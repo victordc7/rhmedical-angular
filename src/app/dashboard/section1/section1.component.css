@@ -1,0 +1,55 @@
+.circle {
+    position: absolute;
+    top: 150px;
+    left: -250px;
+    background-color: var(--secondary);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -5;
+}
+
+.square {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary);
+    height: 900px;
+    width: 30vw;
+    z-index: -5;
+}
+
+.content{
+    width: 80vw;
+    margin: 200px 10vw 0 10vw;
+    height: 500px;
+}
+
+.img {
+    background-image: url("../../../assets/cirujano4K.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 500px;
+    float: right;
+}
+
+.textt {
+    margin-top: 50px;
+    width: 48%;
+    height: 450px;
+    float: left;
+    max-width: 600PX;
+}
+
+@media (max-width: 767px) {
+    .textt {
+        width: 100%;
+    }
+  }
+
+.textt h1 {   
+    letter-spacing: 10px;
+    color: var(--primary);
+}

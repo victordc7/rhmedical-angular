@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 pt-2">
+    <a class="navbar-brand" style="margin-left: 10vw" [routerLink]="['/inicio']"><img src="../../assets/medical.png" alt="logomedical"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" [routerLink]="['/inicio']">I N I C I O</a>
+            <a class="nav-item nav-link" [routerLink]="['/productos']">P R O D U C T O S</a>
+            <a class="nav-item nav-link" [routerLink]="['/contactos']">C O N T A C T O S</a>
+            <a class="nav-item nav-link p-0" [routerLink]="['/presupuesto']">
+                <button type="button" class="btn btn-primary" style="height: 30px; margin-top: 2px">
+                    <span style="position: relative; top: -2px; font-size: 80%">
+                        ¡Presupuesta!
+                    </span>
+                </button>
+            </a>
+            <div class="d-lg-none d-xl-block" style="width: 10vw"></div>
+            <div class="d-xl-none d-md-none d-lg-block" style="width: 16px"></div>
+        </div>
+    </div>
+</nav>
