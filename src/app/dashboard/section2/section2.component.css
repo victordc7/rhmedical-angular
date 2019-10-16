@@ -1,3 +1,41 @@
-h1 {
-    text-align: center
+h2 {
+    text-align: center;
+}
+
+#border {
+    width: 260px;
+    border-top: solid var(--primary) 4px;
+    margin-top: -4px;
+}
+
+.text1 {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 80%;
+    font-weight: 800;
+}
+
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 100%;
+}
+
+.card-text{
+    font-style: italic;
+    font-size: 90%;
+    font-weight: normal;
+}
+.typegreen{
+    background-color: var(--primary)
+}
+
+.typepink{
+    background-color: var(--secondary);
+    color: white;
 }

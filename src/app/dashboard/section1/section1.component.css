@@ -49,6 +49,10 @@
     .textt {
         width: 100%;
     }
+    .content{
+        width: 100%;
+        margin: 200px 0 0 0;
+    }
   }
 
 .textt h1 {   

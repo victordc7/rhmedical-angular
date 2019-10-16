@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Section2Component } from './dashboard/section2/section2.component';
 import { Section3Component } from './dashboard/section3/section3.component';
 import { ProductsComponent } from './products/products.component';
+import { BudgetComponent } from './budget/budget.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProductsComponent } from './products/products.component';
     Section2Component,
     Section3Component,
     ProductsComponent,
+    BudgetComponent,
   ],
   imports: [
     BrowserModule,

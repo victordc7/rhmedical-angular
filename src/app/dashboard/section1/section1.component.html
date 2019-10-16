@@ -6,32 +6,44 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <div class="row">
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
-                        IR A PRODUCTOS
-                    </button>
+                    <a class="nav-item nav-link p-0" [routerLink]="['/productos']">
+                        <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
+                            IR A PRODUCTOS
+                        </button>
+                    </a>
                 </div>
                 <div class="col-sm-6">
-                    <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
-                        CONTÁCTENOS
-                    </button>
+                    <a class="nav-item nav-link p-0" [routerLink]="['/']">
+                        <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
+                            CONTÁCTENOS
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center mt-lg-3">
                 <div class="col-sm-8">
-                    <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
-                        ¡PIDE TU PRESUPUESTO YA!
-                    </button>
+                    <a class="nav-item nav-link p-0" [routerLink]="['/presupuesto']">
+                        <button type="button" class="btn btn-primary mt-1 mt-lg-0" style="height: 50PX;width: 100%;">
+                            ¡PIDE TU PRESUPUESTO YA!
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center mt-lg-4" style="font-weight: bold; text-align: center">
-                <div class="col-sm-2 mt-1 mt-lg-0">
-                    Facebook
+                <div class="col-sm-2 mt-2 mt-lg-0">
+                    <a href="https://www.facebook.com" target="blank">
+                        Facebook
+                    </a>
                 </div>
-                <div class="col-sm-2 mt-1 mt-lg-0">
-                    Twitter
+                <div class="col-sm-2 mt-2 mt-lg-0">
+                    <a href="https://www.twitter.com" target="blank">
+                        Twitter
+                    </a>
                 </div>
-                <div class="col-sm-2 mt-1 mt-lg-0">
-                    Instagram
+                <div class="col-sm-2 mt-2 mt-lg-0">
+                    <a href="https://www.instagram.com" target="blank">
+                        Instagram
+                    </a>
                 </div>
             </div>
         </div>

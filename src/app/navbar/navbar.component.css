@@ -4,3 +4,7 @@
     font-weight: 800;
     font-size: 80%;
 }
+
+.bg-custom {
+    background-color: rgba(194, 145, 192,0.1)
+}
