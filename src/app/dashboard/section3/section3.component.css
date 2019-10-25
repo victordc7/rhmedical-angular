@@ -39,7 +39,32 @@
     margin-top: -4px;
 }
 
-img {
-    width: 200px;
-    margin-top: 30px;
+#logo{
+    background-image: url("../../../assets/logoRedondoEstetica.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    float: right;
+    border-radius: 25%;
+    opacity: 0.5;
+    padding: 0 20px;
+}
+
+.adress {
+    opacity: 1;
+   margin-top: 200px;
+   font-weight: 800;
+   margin-bottom: 8px;
+}
+
+.email {
+    opacity: 1;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.tlf {
+    opacity: 1;
+    font-weight: 800;
+    margin-bottom: 8px;
 }
