@@ -1,0 +1,40 @@
+.form-control{ 
+    border-radius: 15px; 
+    background-color: var(--secondary);
+    height: 50px;
+}
+
+.form-group{ 
+    
+    height: 40px;
+}
+
+#message{
+    height: 130px;
+}
+
+.btn-primary{
+    margin-top: 80px;
+    border-radius: 8px;
+    width: 110px;
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 80%;
+    font-weight: 800;
+}
+
+
+#border {
+    width: 260px;
+    border-top: solid var(--primary) 4px;
+    margin-top: -4px;
+}
