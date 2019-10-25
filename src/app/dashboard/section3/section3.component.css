@@ -46,7 +46,7 @@
     background-size: contain;
     float: right;
     border-radius: 25%;
-    opacity: 0.3;
+    opacity: 0.2;
     padding: 0 20px;
 }
 
@@ -66,4 +66,12 @@
     opacity: 1;
     font-weight: 800;
     text-align: center;
+}
+
+.slogan {
+    opacity: 1;
+    font-weight: 600;
+    text-align: center;
+    font-size: 250%;
+    color: var(--primaryHover);
 }
